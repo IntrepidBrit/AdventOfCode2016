@@ -5,6 +5,12 @@ import d2p1
 import d2p2
 import d3p1
 import d3p2
+import d4p1
+import d4p2
+import d5p1
+import d5p2
+import d6p1
+import d6p2
 
 
 def read_input_data(day_num):
@@ -29,3 +35,15 @@ if __name__ == "__main__":
     d3_input = read_input_data(3)
     print("Day 3, part 1: ", d3p1.count_possible_triangles(d3_input))
     print("Day 3, part 2: ", d3p2.count_possible_triangles(d3_input))
+
+    d4_input = read_input_data(4)
+    print("Day 4, part 1: ", d4p1.sum_sector_ids(d4_input))
+    print("Day 4, part 2: ", d4p2.find_north_pole_object_storage(d4_input))
+
+    d5_input = read_input_data(5)
+    print("Day 5, part 1: ", d5p1.naive_hashthrash_me_a_password(d5_input))
+    print("Day 5, part 2: ", d5p2.naive_hashthrash_me_a_password(d5_input))
+
+    d6_input = read_input_data(6)
+    print("Day 6, part 1: ", d6p1.jamming_error_correction(d6_input))
+    print("Day 6, part 2: ", d6p2.jamming_error_correction(d6_input))
